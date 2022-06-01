@@ -14,6 +14,7 @@ public class FacebookPage {
     @FindBy(name = "login")
     public WebElement loginTusu;
 
-    @FindBy(xpath = "//div[contains(text(),'Giriş Bilgileri Yanlış')]")
+    @FindBy(xpath = "//div[@class='_9ay7']")
     public WebElement girilemediYaziElementi;
+
 }

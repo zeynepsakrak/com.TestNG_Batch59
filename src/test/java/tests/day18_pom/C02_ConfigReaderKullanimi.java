@@ -22,11 +22,11 @@ public class C02_ConfigReaderKullanimi {
         facebookPage.mailKutusu.sendKeys(ConfigReader.getProperty("fbWrongUsername"));
 
         // kullanici sifre kutusuna rastgele bir password yazdirin
-        facebookPage.mailKutusu.sendKeys(ConfigReader.getProperty("fbWrongPassword"));
+        facebookPage.sifreKutusu.sendKeys(ConfigReader.getProperty("fbWrongPassword"));
 
         // login butonuna basin
         facebookPage.loginTusu.click();
-
+//facebookPage.senDegilmisin.click();
         //giris yapilamadigini test edin
         Assert.assertTrue(facebookPage.girilemediYaziElementi.isDisplayed());
 

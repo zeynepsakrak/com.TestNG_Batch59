@@ -17,8 +17,6 @@ public class ShoppingPage {
     public List<WebElement> urunFiyat;
     @FindBy(xpath = "//button[@class='sc-124al1g-0 jCsgpZ'][normalize-space()='Add to cart']")
     public List<WebElement> Addtocart;
-    @FindBy(xpath = "//span[@class='sc-1h98xa9-6 eAZPfb']")
-    public WebElement CartYazi;
     @FindBy(xpath = "//span[normalize-space()='X']")
     public WebElement sepetiKapat;
     @FindBy(xpath = "//div[@class='sc-1h98xa9-2 fGgnoG']")
